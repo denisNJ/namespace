@@ -13,13 +13,11 @@ var NOLA0123 = {
         newDiv.className = ("box");
         newDiv.textContent = ("nola0123");
         document.getElementById("boxes").appendChild(newDiv);
-
-
+        
         newDiv.addEventListener("mouseover", function () {
-            newDiv.classList.toggle("highlight");
+        newDiv.classList.toggle("highlight");
             
         });
-
 
         newDiv.addEventListener("click", function () {
             newDiv.style.borderColor = "blue";
