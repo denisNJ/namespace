@@ -20,16 +20,17 @@ var NOLA0123 = {
             
         });
 
-        newDiv.addEventListener("mouseout", function () {
-            newDiv.classList.toggle("highlight");
-            newDiv.removeAttribute("style");
-            newDiv.textContent = "nola0123";
-        });
 
         newDiv.addEventListener("click", function () {
             newDiv.style.borderColor = "blue";
             newDiv.style.backgroundColor = "yellow";
             newDiv.textContent = "Ma name Jeff";
+        });
+
+        newDiv.addEventListener("mouseout", function () {
+            newDiv.classList.toggle("highlight");
+            newDiv.removeAttribute("style");
+            newDiv.textContent = "nola0123";
         });
     }
 }
